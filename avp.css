@@ -1,0 +1,81 @@
+body {
+    background-image: url("images/avp.png");
+    background-size: cover;
+    background-attachment:fixed;
+}
+/* for countdown timer */
+
+#app {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top:0;
+    margin: 620px 0px 0px 0px;
+    height: 200px;
+}
+
+.countdown {
+  display: flex;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.text {
+    color: #057a97;
+    font-size: 25px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 40;
+    margin-top:10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(10, 150, 197),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+.digit {
+    color: #057a97;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(7, 159, 209),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+/* coming soon */
+#footer {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    color: #057a97;
+    margin-bottom: 50px;
+    text-shadow: 0 0 20px rgb(2, 192, 255),  0 0 20px rgba(10, 175, 230, 0);
+ }
+
+ /* avp logo */
+ #logo {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position:relative;
+    right: 0;
+    top:0;
+ }
+ img {
+    width: 800px;
+    height: auto;
+    margin-top: 50px;
+ }
